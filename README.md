@@ -64,3 +64,11 @@ python app.py
 7. Abrir en el navegador:
 
 http://127.0.0.1:5000
+
+# Evidencia de Aplicación :
+<img width="1363" height="721" alt="image" src="https://github.com/user-attachments/assets/419551b0-b5a5-4249-8862-9a98782f20a4" />
+<img width="1197" height="631" alt="image" src="https://github.com/user-attachments/assets/2e986479-6cf1-4e0c-99c7-75ed0c006f4d" />
+<img width="1336" height="595" alt="image" src="https://github.com/user-attachments/assets/af780c62-d5c7-4723-aebf-6faae83a319b" />
+<img width="1337" height="670" alt="image" src="https://github.com/user-attachments/assets/234cd71b-1a44-4bd5-9296-e9fcf0e8887d" />
+
+
