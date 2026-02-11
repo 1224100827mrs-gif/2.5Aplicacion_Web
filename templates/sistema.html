@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="text-success mb-3">Gestión Ambiental</h2>
+
+<img src="{{ url_for('static', filename='images/gestion.jpg') }}"
+     class="img-fluid rounded mb-3">
+
+<p>
+Un Sistema de Gestión Ambiental ayuda a organizaciones y personas
+a reducir el impacto negativo que generan en el medio ambiente.
+</p>
+
+<p>
+Su objetivo es usar los recursos de forma responsable y
+cumplir con normas que protegen el entorno.
+</p>
+
+<div class="alert alert-success">
+  🌱 La gestión ambiental ayuda a convertir la preocupación en acción.
+</div>
+
+{% endblock %}

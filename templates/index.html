@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="bg-success text-white p-4 rounded mb-4">
+  <h1>Huella Verde 🌱</h1>
+  <p>
+    Pequeñas acciones diarias pueden ayudar a cuidar el planeta.
+  </p>
+</div>
+
+<div class="row align-items-center mb-4">
+  <div class="col-md-6">
+    <h3 class="text-success">¿De qué trata esta aplicación?</h3>
+
+    <p>
+      Esta aplicación web fue creada para informar de manera sencilla
+      sobre la importancia del cuidado del medio ambiente.
+    </p>
+
+    <p>
+      Aquí podrás conocer por qué es importante proteger nuestro entorno,
+      cómo funcionan los sistemas de gestión ambiental y qué acciones
+      podemos aplicar en nuestra vida diaria.
+    </p>
+  </div>
+
+  <div class="col-md-6">
+    <img src="{{ url_for('static', filename='images/huella.jpg') }}"
+         class="img-fluid rounded">
+  </div>
+</div>
+
+<h3 class="text-success text-center mb-3">¿Qué encontrarás aquí?</h3>
+
+<div class="row text-center">
+  <div class="col-md-4 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="text-success">Información</h5>
+        <p>Conceptos básicos sobre el medio ambiente.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="text-success">Conciencia</h5>
+        <p>Reflexiones sobre el impacto de nuestras acciones.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="text-success">Acciones</h5>
+        <p>Hábitos sencillos para cuidar el planeta.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

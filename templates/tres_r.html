@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="text-success mb-3">Las 3 R del cuidado ambiental</h2>
+
+<p>
+Las 3 R son acciones sencillas que ayudan a reducir
+el impacto ambiental.
+</p>
+
+<div class="row text-center mb-3">
+  <div class="col-md-4">
+    <h5 class="text-success">Reducir</h5>
+    <p>Consumir solo lo necesario.</p>
+  </div>
+
+  <div class="col-md-4">
+    <h5 class="text-success">Reutilizar</h5>
+    <p>Dar un segundo uso a los objetos.</p>
+  </div>
+
+  <div class="col-md-4">
+    <h5 class="text-success">Reciclar</h5>
+    <p>Separar residuos correctamente.</p>
+  </div>
+</div>
+
+<img src="{{ url_for('static', filename='images/acciones.jpg') }}"
+     class="img-fluid rounded">
+
+{% endblock %}

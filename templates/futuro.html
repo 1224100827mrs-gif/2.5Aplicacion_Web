@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="text-success mb-3">El futuro del planeta</h2>
+
+<img src="{{ url_for('static', filename='images/generaciones.jpg') }}"
+     class="img-fluid rounded mb-3">
+
+<p>
+Las decisiones que tomamos hoy influyen directamente
+en el mundo que vivirán las futuras generaciones.
+</p>
+
+<p>
+Cuidar el planeta es una forma de asegurar un mejor
+futuro para todos.
+</p>
+
+<div class="alert alert-warning">
+  🌍 Pensar en el futuro empieza con actuar hoy.
+</div>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Huella Verde</title>
+
+    <!-- Carga de Bootstrap para el diseño responsivo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Menú de navegación principal -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand" href="/">Huella Verde 🌱</a>
+
+    <!-- Botón para menú en pantallas pequeñas -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Opciones del menú -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="/gestion-ambiental">Gestión</a></li>
+        <li class="nav-item"><a class="nav-link" href="/futuro-planeta">Futuro</a></li>
+        <li class="nav-item"><a class="nav-link" href="/acciones-verdes">Acciones</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Migas de pan (breadcrumb) -->
+<div class="container mt-3">
+  <ol class="breadcrumb">
+    {% for item in breadcrumb %}
+      <li class="breadcrumb-item">{{ item }}</li>
+    {% endfor %}
+  </ol>
+</div>
+
+<!-- Contenido específico de cada página -->
+<div class="container mt-4">
+  {% block content %}{% endblock %}
+</div>
+
+<!-- Pie de página -->
+<footer class="bg-light text-center p-3 mt-5">
+  <small>🌍 Huella Verde · Cuidar el planeta empieza con nosotros</small>
+</footer>
+
+<!-- JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
