@@ -39,7 +39,7 @@ Cada sección cuenta con imágenes y una navegación intuitiva.
 
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com/tu-usuario/huella-verde.git](https://github.com/1224100827mrs-gif/2.5Aplicacion_Web)
+   git clone https://github.com/tu-usuario/huella-verde.git](https://github.com/1224100827mrs-gif/2.5Aplicacion_Web)
 
 2. Entrar al proyecto:
 
